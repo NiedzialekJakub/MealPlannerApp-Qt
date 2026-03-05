@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BrekfastView</class>
+ <widget class="QWidget" name="BrekfastView">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1785</width>
+    <height>1037</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#ChickenView {
+    background-color: #E0FFE0; 
+}</string>
+  </property>
+  <widget class="QPushButton" name="btnBack">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>151</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>22</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listPL">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>150</y>
+     <width>701</width>
+     <height>771</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>24</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listEN">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>150</y>
+     <width>701</width>
+     <height>771</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>24</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnPrzepis">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>960</y>
+     <width>331</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>22</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Pokaż przepis</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnRecipe">
+   <property name="geometry">
+    <rect>
+     <x>1170</x>
+     <y>960</y>
+     <width>381</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>22</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Show recipe</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

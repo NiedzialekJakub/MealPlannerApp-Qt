@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StarterView</class>
+ <widget class="QWidget" name="StarterView">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1773</width>
+    <height>1070</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton {
+    margin: 10px; 
+}
+
+QPushButton:hover {
+    margin: 0px;
+}
+
+#StarterView {
+    background-color: #E0FFE0; 
+}</string>
+  </property>
+  <widget class="QPushButton" name="btnChicken">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>331</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rescources/chicken.png) 0 0 0 0 stretch stretch</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>300</width>
+     <height>170</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnBeef">
+   <property name="geometry">
+    <rect>
+     <x>1440</x>
+     <y>10</y>
+     <width>321</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rescources/beef.png) 0 0 0 0 stretch stretch</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSoup">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>400</y>
+     <width>331</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rescources/soup.png) 0 0 0 0 stretch stretch</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSandwich">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>740</y>
+     <width>321</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rescources/sandwich.png) 0 0 0 0 stretch stretch</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnBreakfrast">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>10</y>
+     <width>331</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rescources/breakfrast.png) 0 0 0 0 stretch stretch</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnSeaFood">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>390</y>
+     <width>321</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rescources/seafood.png) 0 0 0 0 stretch stretch</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnDesserts">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>390</y>
+     <width>341</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rescources/desserts.png) 0 0 0 0 stretch stretch</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnPork">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>10</y>
+     <width>331</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rescources/pork.png) 0 0 0 0 stretch stretch</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnPasta">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>740</y>
+     <width>331</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rescources/pasta.png) 0 0 0 0 stretch stretch</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnFastFood">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>740</y>
+     <width>321</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rescources/fastFood.png) 0 0 0 0 stretch stretch</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnFridge">
+   <property name="geometry">
+    <rect>
+     <x>1510</x>
+     <y>520</y>
+     <width>231</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/rescources/fridge.png) 0 0 0 0 stretch stretch</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
